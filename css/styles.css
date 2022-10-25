@@ -13,7 +13,7 @@
 
 /* Title image */
 .dog-1 {
-  width: 50%;
+  width: 60%;
   transform: rotate(20deg);
   position: absolute;
   right: 30%;
@@ -124,4 +124,41 @@ h2 {
 
 .pricing-cards {
   padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .dog-1 {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  font-family: "Montserrat";
+  padding: 30px;
+  text-align: center;
+}
+
+#footer {
+  margin: 15px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.footer-icons {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.copyright {
+  color: grey;
+  font-family: "Montserrat-light";
 }
